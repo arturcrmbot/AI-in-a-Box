@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gen-ai", "gen-ai", "{312AC37D-5848-4331-A569-A14C533CD7B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "semantic-kernel-bot-in-a-box", "semantic-kernel-bot-in-a-box", "{345EE488-E6C2-41F7-ACD2-BE092DCD93ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemanticKernelBot", "gen-ai\semantic-kernel-bot-in-a-box\src\SemanticKernelBot.csproj", "{0290ED80-92C0-454D-BE57-7639566CF08E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0290ED80-92C0-454D-BE57-7639566CF08E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0290ED80-92C0-454D-BE57-7639566CF08E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0290ED80-92C0-454D-BE57-7639566CF08E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0290ED80-92C0-454D-BE57-7639566CF08E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{345EE488-E6C2-41F7-ACD2-BE092DCD93ED} = {312AC37D-5848-4331-A569-A14C533CD7B8}
+		{0290ED80-92C0-454D-BE57-7639566CF08E} = {345EE488-E6C2-41F7-ACD2-BE092DCD93ED}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C40A126-3303-432D-9622-BCEF5785E2AB}
+	EndGlobalSection
+EndGlobal
